@@ -1,4 +1,4 @@
-import amqp from 'amqp-connection-manager'
+import * as amqp from 'amqp-connection-manager'
 import { ConfirmChannel } from 'amqplib';
 
 const connection = amqp.connect(['amqp://localhost']);
