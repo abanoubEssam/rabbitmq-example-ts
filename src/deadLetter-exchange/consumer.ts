@@ -35,7 +35,7 @@ const directMessageHandler = (message) => {
 }
 
 const deadLetterMessageHandler = (message) => {
-    console.log("MESSAGE: " , Buffer.from(message.content).toString())
+    console.log("DEAD MESSAGE RESOLVER: " , Buffer.from(message.content).toString())
 }
 
 consumer(connection)

@@ -23,7 +23,7 @@ const assertExchange = async (channel: ConfirmChannel) => {
 };
 
 const assertQueue = (channel: ConfirmChannel) => {
-    channel.assertQueue("DIRECT_QUEUE2", { durable: false, messageTtl: 30000, deadLetterExchange: "deadLetterExtchange1" });
+    channel.assertQueue("DIRECT_QUEUE2", { durable: false, messageTtl: 30000, deadLetterExchange: "deadLetterExtchange1" ,deadLetterRoutingKey: "ROUTE_KEY_DIRECT2" });
     channel.assertQueue("DIRECT_QUEUE3", { durable: false });
 };
 
