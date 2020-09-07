@@ -1,4 +1,4 @@
-import amqp from 'amqp-connection-manager';
+import * as amqp from 'amqp-connection-manager'
 import { ConfirmChannel } from 'amqplib';
 import { ExchangesTypes } from '../constants';
 

@@ -1,6 +1,6 @@
 import { ConfirmChannel } from "amqplib";
 import { DIRECT_EXCHANGE, ROUTE_KEY_DIRECT, DIRECT_QUEUE, ExchangesTypes } from '../constants';
-const amqp = require('amqp-connection-manager');
+import * as amqp from 'amqp-connection-manager'
 const connection = amqp.connect(['amqp://localhost']);
 
 

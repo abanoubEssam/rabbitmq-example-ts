@@ -4,6 +4,15 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
+    "start:direct-producer": "ts-node src/direct-exchange/producer.ts",
+    "start:direct-consumer": "ts-node src/direct-exchange/consumer.ts",
+
+    "start:fanout-producer": "ts-node src/fanout-exchange/producer.ts",
+    "start:fanout-consumer": "ts-node src/fanout-exchange/consumer.ts",
+
+    "start:topic-producer": "ts-node src/topic-exchange/producer.ts",
+    "start:topic-consumer": "ts-node src/topic-exchange/consumer.ts",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AbanoubEssam",
