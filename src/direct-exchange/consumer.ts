@@ -1,4 +1,4 @@
-import amqp from 'amqp-connection-manager'
+import * as amqp from 'amqp-connection-manager'
 import { ConfirmChannel } from 'amqplib';
 import { BINDING_KEY_DIRECT, DIRECT_QUEUE, DIRECT_EXCHANGE } from '../constants';
 
