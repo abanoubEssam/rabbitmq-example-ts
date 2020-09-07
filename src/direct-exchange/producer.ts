@@ -10,7 +10,7 @@ async function produce(connection) {
         setup: async function (channel: ConfirmChannel) {
             return await Promise.all([
                 channel.assertExchange(DIRECT_EXCHANGE, ExchangesTypes.DIRECT),
-                channel.assertQueue(DIRECT_QUEUE, { durable: true }),
+                channel.assertQueue(DIRECT_QUEUE, { durable: false }),
                 // channel.bindQueue(DIRECT_QUEUE, DIRECT_EXCHANGE, ROUTE_KEY_DIRECT),
                 channel.publish(DIRECT_EXCHANGE, ROUTE_KEY_DIRECT, Buffer.from(JSON.stringify({ message: "DIRECT MSG From Producer" }))),
 

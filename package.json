@@ -13,6 +13,9 @@
     "start:topic-producer": "ts-node src/topic-exchange/producer.ts",
     "start:topic-consumer": "ts-node src/topic-exchange/consumer.ts",
 
+    "start:dead-letter-producer": "ts-node src/deadLetter-exchange/producer.ts",
+    "start:dead-letter-consumer": "ts-node src/deadLetter-exchange/consumer.ts",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AbanoubEssam",
