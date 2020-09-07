@@ -1,0 +1,17 @@
+{
+  "name": "rabbitmq-ts-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AbanoubEssam",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqp-connection-manager": "^2.0.10",
+    "@types/amqplib": "^0.5.13",
+    "amqp-connection-manager": "^3.2.0",
+    "amqplib": "^0.6.0"
+  }
+}
