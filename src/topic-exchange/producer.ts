@@ -1,6 +1,6 @@
 import { ConfirmChannel } from "amqplib";
 import { ExchangesTypes } from '../constants';
-import * as amqp from 'amqp-connection-manager'
+const amqp = require('amqp-connection-manager');
 const connection = amqp.connect(['amqp://localhost']);
 
 async function produce(connection) {

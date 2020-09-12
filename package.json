@@ -16,6 +16,10 @@
     "start:dead-letter-producer": "ts-node src/deadLetter-exchange/producer.ts",
     "start:dead-letter-consumer": "ts-node src/deadLetter-exchange/consumer.ts",
 
+    
+    "start:delayed-producer": "ts-node src/delayedDelivery/producer.ts",
+    "start:delayed-consumer": "ts-node src/delayedDelivery/consumer.ts",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AbanoubEssam",

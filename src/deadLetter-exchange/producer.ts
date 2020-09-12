@@ -32,6 +32,6 @@ const bindingQueue = (channel: ConfirmChannel) => {
     channel.bindQueue("DIRECT_QUEUE3", "deadLetterExtchange1", "ROUTE_KEY_DIRECT2");
 };
 
-channelWrapper.publish(DIRECT_EXCHANGE, ROUTE_KEY_DIRECT, Buffer.from(JSON.stringify({ message: "DIRECT MSG From Producer" })));
+channelWrapper.publish(DIRECT_EXCHANGE, ROUTE_KEY_DIRECT, { message: "DIRECT MSG From Producer" });
 
 console.log("SUCCESS")
