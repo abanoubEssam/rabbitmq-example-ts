@@ -6,19 +6,22 @@
   "scripts": {
     "start:direct-producer": "ts-node src/direct-exchange/producer.ts",
     "start:direct-consumer": "ts-node src/direct-exchange/consumer.ts",
-
+    
     "start:fanout-producer": "ts-node src/fanout-exchange/producer.ts",
     "start:fanout-consumer": "ts-node src/fanout-exchange/consumer.ts",
-
+    
     "start:topic-producer": "ts-node src/topic-exchange/producer.ts",
     "start:topic-consumer": "ts-node src/topic-exchange/consumer.ts",
-
+    
     "start:dead-letter-producer": "ts-node src/deadLetter-exchange/producer.ts",
     "start:dead-letter-consumer": "ts-node src/deadLetter-exchange/consumer.ts",
-
     
     "start:delayed-producer": "ts-node src/delayedDelivery/producer.ts",
     "start:delayed-consumer": "ts-node src/delayedDelivery/consumer.ts",
+    
+
+    "start:cluster-producer": "ts-node src/cluster-exchange/producer.ts",
+    "start:cluster-consumer": "ts-node src/cluster-exchange/consumer.ts",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },

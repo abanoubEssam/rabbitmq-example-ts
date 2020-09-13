@@ -1,0 +1,22 @@
+
+export const RAMY_EXCHANGE = "RAMY_EXCHANGE";
+
+export const RAMY_QUEUE = "RAMY_QUEUE";
+
+export const INDEX_EXCHANGE = "INDEX_EXCHANGE";
+export const PROGRAMMING_EXCHANGE = "PROGRAMMING_EXCHANGE";
+
+export const WORKING_EXCHANGE = "WORKING_EXCHANGE";
+
+
+export const KAREEM_QUEUE = "KAREEM_QUEUE";
+export const BEBO_QUEUE = "BEBO_QUEUE";
+export const SHABANA_QUEUE = "SHBANA_QUEUE";
+export const BEHEIRY_QUEUE = "BEHIERYU_QUEUE";
+export const DIASTY_QUEUE = "DIASTY_QUEUE";
+
+export const WORKING_QUEUE = "WORKING_QUEUE";
+export const WORKING_DLX = "WORKING_DLX";
+export const DEAD_QUEUE = "DEAD_QUEUE";
+
+export const TTL_EXCHANGE = "TTL_EXCHANGE";
